@@ -1,0 +1,502 @@
+/* resets */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: 'Gothic A1', sans-serif;
+    color: #3D3D3D;
+    margin: 0;
+    min-width: 1500px;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+nav {
+    text-decoration: none;
+}
+
+button {
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    color: white;
+    background-color: black
+}
+
+button:hover {
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: black;
+    color: white;
+}
+
+/* header */
+header {
+    position: relative;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+
+.tittle {
+    font-size: 80px;
+}
+
+.logo {
+    color: white;
+    text-decoration: overline;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+.logo:hover {
+    color: rgb(150, 147, 147);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.homebtn {
+    color: black;
+    background-color: white;
+}
+
+.homebtn i {
+    padding-left: 5px;
+}
+
+/* navigation */
+.menü {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: ease-out 0.3s;
+}
+
+.menü:hover {
+    text-decoration: underline;
+    color: rgb(225, 222, 222);
+    ;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    bottom: 90%;
+    left: 70%;
+}
+
+nav ul li {
+    display: block;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+/* ana içerik */
+/* bölüm 1 */
+.tittlebox {
+    color: black;
+    height: 60px;
+    font-weight: 100;
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+.tittlep {
+    color: #626060;
+    margin-left: 120px;
+}
+
+.card1 {
+    background-color: white;
+    margin-top: 40px;
+    width: 400px;
+    height: 500px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    margin-left: 120px;
+    padding: 30px 20px 28px 20px;
+}
+
+.box1 {
+    padding-top: 220px;
+}
+
+.box1 p {
+    font-size: 15px;
+    color: #999999;
+}
+
+.card2 {
+    background-color: white;
+    margin-top: 40px;
+    width: 400px;
+    height: 500px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 30px 20px 28px 20px;
+}
+
+.box2 {
+    padding-top: 220px;
+}
+
+.box2 p {
+    font-size: 15px;
+    color: #999999;
+}
+
+.card3 {
+    background-color: white;
+    margin-top: 40px;
+    width: 400px;
+    height: 500px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 30px 20px 28px 20px;
+}
+
+.box3 {
+    padding-top: 220px;
+}
+
+.box3 p {
+    font-size: 15px;
+    color: #999999;
+}
+
+/* bölüm 2 */
+.nested {
+    height: 650px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image: url(blackworld2.webp);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.readline1 {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 110px;
+}
+
+.ptittle {
+    color: white;
+    line-height: 1.2em;
+    font-size: 45px;
+    font-weight: 700;
+    height: 200px;
+}
+
+.ptittle1 {
+    color: white;
+    font-size: 20px;
+}
+
+.readline2 {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.ptittle2 {
+    color: white;
+    font-size: 15px;
+}
+
+.ptittle3 {
+    color: white;
+    font-size: 25px;
+}
+
+.readbtn i {
+    padding-left: 5px;
+}
+
+/* bölüm 3 */
+.readlist {
+    height: 850px;
+}
+
+.readlist img {
+    width: 510px;
+    height: 673px;
+    margin-left: 120px;
+    margin-bottom: 400px;
+}
+
+.listtitle {
+    display: inline-block;
+    margin-left: 125px;
+}
+
+.READT {
+    margin-left: 20px;
+
+}
+
+.read1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-left: 30px;
+}
+
+.read2 {
+    color: #191919;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.list li {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    list-style-type: none;
+}
+
+.list p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #999999;
+    padding-left: 48px;
+}
+
+.list i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* fotoğraflar */
+.photos h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 120px;
+    color: black;
+}
+
+.photos p {
+    margin-left: 120px;
+    font-size: 16px;
+    color: #191919;
+    font-weight: 400;
+}
+
+.phinline {
+    display: inline-block;
+    padding-right: 525px;
+}
+
+.photobtn {
+    margin-bottom: 50px;
+}
+
+.photobtn i {
+    padding-left: 5px;
+}
+
+.mini1 {
+    height: 470px;
+    width: 620px;
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.mini2 {
+    height: 470px;
+    width: 620px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.mini3 {
+    height: 470px;
+    width: 620px;
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.mini4 {
+    height: 470px;
+    width: 620px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.mini5 {
+    width: 1275px;
+    height: 500px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+/* bitiş */
+.bussines img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.centered2 {
+    position: absolute;
+    text-align: center;
+    margin-left: 375px;
+    margin-top: 175px;
+    color: white;
+}
+
+.centered2 h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.centered2 p {
+    text-align: center;
+}
+.businessbtn i{
+    padding-left: 5px;
+}
+
+/* footer */
+.sc1 {
+    background-color: white;
+    margin-top: 120px;
+    width: 550px;
+    display: inline-table;
+    margin-left: 120px;
+}
+
+.sc2 {
+    background-color: white;
+    margin-top: 40px;
+    width: 350px;
+    display: inline-table;
+    margin-left: 30px;
+}
+
+.sc3 {
+    background-color: white;
+    margin-bottom: 40px;
+    width: 400px;
+    display: inline-table;
+    margin-left: 30px;
+}
+
+.logo1 {
+    text-decoration: overline;
+    font-size: large;
+    line-height: 1.9em;
+}
+
+#social {
+    display: flex;
+    padding-left: 1px;
+}
+
+#social li {
+    list-style-type: none;
+    padding-right: 25px;
+    color: #999999;
+    text-decoration: none;
+}
+
+#social a {
+    color: #999999;
+    transition: ease-out 0.3s;
+}
+
+#social a:hover {
+    color: black;
+}
+
+#number {
+    color: black;
+    font-weight: 600;
+    font-size: x-large;
+    transition: ease-out 0.3s;
+}
+
+#link {
+    color: #999999;
+    transition: ease-out 0.3s;
+}
+
+#number:hover {
+    color: #999999;
+}
+
+#link:hover {
+    color: rgb(97, 81, 81);
+}
+
+/* sayfa sonu çizgisi */
+.line {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.soon {
+    margin-left: 120px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+#line {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #8f8c8c;
+    transition: ease-out 0.3s;
+}
+
+#line:hover {
+    text-decoration: underline;
+}
+
+#linez {
+    text-decoration: none;
+    color: #403f3f
+}
+
+.lined {
+    color: #8f8c8c;
+}
